@@ -1,2 +1,7 @@
-$primary-blue-color: #00acdc;
+$primary-link-color: #060b35;
+$secondary-link-color: #00acdc;
 $header-height: 60px;
+
+@mixin color-change {
+  transition: color, 300ms;
+}
